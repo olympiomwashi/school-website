@@ -1,0 +1,1267 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    font-family: Roboto, sans-serif, arial;
+    background: #f0f3fa;
+}
+
+.time-container {
+    position: fixed;
+    top: 107px;
+    right: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+.hidden {
+    opacity: 0;
+  }
+
+.width-100 {
+    width: 100%;
+    float: left;
+}
+
+/* School name and slogan container */
+.container {
+    width: 1500px;
+    height: 50px;
+    margin: 0px auto;
+}
+
+.top-header {
+    background: #004080;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+    margin-top: 95px;
+}
+
+.headquote {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    width: 80%;
+    margin-top: 15px;
+}
+
+/* Login button container */
+.login-container {
+    position: absolute;
+    top: 108px;
+    right: 180px;
+  }
+  
+  .login-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .login-btn:active {
+    background-color: #3e8e41;
+  }
+
+.header-menu {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #fff; /* Adjust as needed */
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.school-logo {
+    width: fit-content;
+    float: left;
+    margin-left: -110px;
+}
+
+.main-menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.main-menu li {
+    float: left;
+    padding: 12px 15px;
+}
+
+#gallery {
+    padding: 20px 0px;
+  }
+
+.main-menu a {
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.slider-width {
+    width: 100%;
+    height: auto;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.width-33 {
+    width: 33%;
+    float: left;
+}
+
+.latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 370px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.heading-section {
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #004080;
+    color: white;
+    border-radius: 5px;
+}
+
+.head-title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.latest-news ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+    color: #000;
+}
+
+.upcoming-events {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 370px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-events ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.upcoming-events ul li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.upcoming-events ul li p {
+    color: #000;
+}
+
+.events-date {
+    background: #004080;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.events-name {
+    margin-top: 15px;
+}
+
+.notice-board {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 370px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notice-board ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.notice-board ul li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.notice-board ul li i {
+    font-size: 20px;
+    color: #004080;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.notice-board ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.useful-info {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 370px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.useful-info ul {
+    list-style: none;
+}
+
+.useful-info ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+}
+
+.useful-info ul li i {
+    font-size: 20px;
+    color: #004080;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.useful-info ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.governance {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 370px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.governance-section-style {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+}
+
+.width-40 {
+    width: 40%;
+    float: left;
+}
+
+.governance-img {
+    width: 100%;
+}
+
+.width-60 {
+    width: 60%;
+    float: left;
+}
+
+.governance-name {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.governance-designation {
+    font-size: 15px;
+    color: #000;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+
+.my-certificate {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 370px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-head-style {
+    font-size: 28px;
+    color: #4b4848;
+    background: white;
+    padding: 2px 0px;
+}
+
+.width-25 {
+    width: 25%;
+    float: left;
+}
+
+.gallery-img {
+    width: auto;
+    height: 250px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+    border-color: #333;
+}
+
+.our-partners-head-style {
+    font-size: 28px;
+    color: #4b4848;
+    margin-bottom: 5px;
+}
+
+.our-partners-marquee {
+    height: 100px;
+}
+
+.our-partners-marquee img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #232f3e;
+    padding: 50px 0px;
+    margin-top: 100px;
+}
+
+.quicklinks-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.quicklinks-menu {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.quicklinks-menu li a {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.get-in-touch {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.get-in-touch li {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+}
+
+.get-in-touch li i {
+    color: #ed372c;
+    font-size: 20px;
+}
+
+.footer-email {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-website {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    gap: 15px; /* Space between the social media icons */
+}
+
+.social-media li {
+    float: left;
+    padding: 0px 8px;
+}
+
+.social-media li a i {
+    font-size: 25px;
+    color: #ffd700;
+    transition: color 0.3s ease;
+}
+
+.facebook a i:hover {
+    color: #4267b2;
+}
+
+.twitter a i:hover {
+    color: #1da1f2;
+}
+
+.linkedin a i:hover {
+    color: #0077b5;
+}
+
+.instagram a i:hover {
+    color: #e95950;
+}
+
+.footer2 {
+    background: #232f3e;
+    padding: 10px 0px;
+    border-top: 1px solid #898989;
+}
+
+.footer2-content {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Scroll to top button */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #004080;
+  }
+  
+  #scrollToTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/* About Us Page */
+.school-name-slogan-logo {
+    width: auto;
+    height: 70px;
+    background: #004080;
+    color: white;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+.school-name-slogan {
+    text-align: center;
+}
+
+.school-name-slogan h1 {
+    font-size: 40px;
+}
+
+.school-name-slogan p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.school-logo-2 {
+    width: fit-content;
+    float: left;
+    margin-left: -10px;
+    margin-top: -86px;
+}
+
+.school-logo-3 {
+    width: fit-content;
+    float: right;
+    margin-right: 0px;
+    margin-top: -86px;
+}
+
+.about-section {
+    padding: 80px 20px;
+}
+
+.width-33-left {
+    width: 33%;
+    float: left;
+}
+
+.width-33-right {
+    width: 33%;
+    float: right;
+}
+
+.img-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 370px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.about-section .container {
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 45px;
+    text-align: center;
+
+}
+
+.about-section .container h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+.about-section .container p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Clubs and sporting activities */
+.clubs-and-sporting-activities {
+    padding: 80px 20px;
+}
+
+.clubs-and-sporting-activities-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.clubs-and-sporting-activities-section {
+    margin-bottom: 40px;
+}
+
+.clubs-and-sporting-activities-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #0047ab;
+    border-bottom: 2px solid #0047ab;
+    display: inline-block;
+}
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.activity-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.activity-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.activity-card h3 {
+    font-size: 24px;
+    color: #0047ab;
+    margin-bottom: 10px;
+}
+
+.activity-card p {
+    font-size: 16px;
+    color: #000;
+}
+
+/* Academics */
+.main-content {
+    padding: 80px 550px;
+}
+
+.center-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 32px;
+    padding: 16px;
+  }
+
+.center-box h2 {
+    color: #004080;
+    font-size: 28px;
+}
+
+.center-box p {
+    color: #333;
+    font-size: 18px;
+}
+
+.center-box h2, p {
+    margin: 5px 0; /* Small vertical spacing between the header and the paragraph */
+  }
+
+.center-box ul {
+    list-style: none;
+    padding-left: 24px;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Admission page */
+.admission {
+    padding: 80px 20px;
+}
+
+.form-section {
+    margin-bottom: 40px;
+}
+
+.form-section h2 {
+    margin-bottom: 10px;
+    color: #004080;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 28px;
+}
+
+.form-section p {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+}
+
+.form-section form {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-section form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.form-section form input {
+    font-size: 15px;
+}
+
+.form-section form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-section form button {
+    background: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-section form button:hover {
+    background: #004080;
+}
+
+/* Contact Us */
+.contact-us {
+    padding: 0px;
+    max-width: 1200px;
+    margin: 90px auto;
+}
+
+.contact-info, .contact-form, .map-section {
+    margin-bottom: 32px;
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2, .contact-form h2, .map-section h2 {
+    margin-bottom: 16px;
+    color: #004080;
+    font-size: 28px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 24px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form form input, form textarea {
+    width: 98%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.contact-form form button {
+    background: #0056b3;
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form form button:hover {
+    background: #004080;
+}
+
+.map-section iframe {
+    border-radius: 8px;
+}
+
+/* Student leaders page */
+.student-leaders-container {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.student-leaders-container h1 {
+    color: #004080;
+    text-align: center;
+    font-size: 28px;
+}
+.leader {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.leader img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.leader h2 {
+    color: #0056b3;
+    margin: 10px 0 5px;
+    font-size: 24px;
+}
+
+.leader p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Achievements page */
+.achievements {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.achievement {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.achievement:last-child {
+    border-bottom: none;
+}
+
+.achievement h2 {
+    color: #004080;
+    font-size: 28px;
+}
+
+.achievement p {
+    color: #333;
+    font-size: 18px;
+}
+
+/*Student of the month page */
+.student-profile {
+    background-color: white;
+    padding: 20px;
+    margin: 80px auto;
+    width: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.student-profile h2 {
+    color: #004080;
+    font-size: 28px;
+    text-align: center;
+}
+
+.student-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+.student-profile h3 {
+    color: #0056b3;
+    font-size: 24px;
+    text-align: center;
+}
+
+.student-profile p {
+    color: #000;
+    font-size: 18px;
+}
+
+/* Policies page */
+.policies {
+    padding: 20px;
+    max-width: 800px;
+    margin: 80px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.policy {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #003366;
+    background: #e3eaf1;
+    border-radius: 5px;
+}
+
+.policy h2 {
+    color: #004080;
+    font-size: 28px;
+}
+
+.policy p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Tenders page */
+.tenders {
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.tender h2 {
+    color: #004080;
+    font-size: 28px;
+}
+
+.tender table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.tender table, .tender th, .tender td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.tender th {
+    background: #004080;
+    color: #fff;
+    font-size: 16px;
+}
+
+.tender td {
+    color: #000;
+    font-size: 16px;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact h2 {
+    color: #004080;
+    font-size: 24px;
+}
+
+.contact p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Pay fees page */
+.fees-container {
+    width: 50%;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.fees-container h2 {
+    color: #004080;
+    font-size: 28px;
+}
+
+.fees-container h2 {
+    color: #004080;
+    font-size: 28px;
+}
+
+.fees-container p {
+    color: #000;
+    font-size: 18px;
+}
+
+.bank-list {
+    list-style: none;
+    padding: 0;
+}
+
+.bank-list li {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bank-list p {
+    color: #000;
+    font-size: 18px;
+}
+.bank-name {
+    font-weight: bold;
+    color: #0056b3;
+    font-size: 24px;
+}
+
+.notice p {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Scholarships page */
+.empower {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    margin: 60px auto;
+}
+
+.scholarships, .apply {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.scholarships h2 {
+    color: #004080;
+    font-size: 28px;
+}
+
+.scholarship {
+    background: #e3e3e3;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.scholarship h3 {
+    color: #0056b3;
+    font-size: 24px;
+}
+
+.scholarship p {
+    color: #000;
+    font-size: 18px;
+}
+
+.apply h2 {
+    color: #004080;
+    font-size: 24px;
+}
+
+.apply p {
+    color: #000;
+    font-size: 18px;
+}
+
+/* Staff login page */
+.staff-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login-form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-form h3 {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-form input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #004080;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Forgot password page */
+.forgot-password-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.forgot-password-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.forgot-password-container p {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.forgot-password-container input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.forgot-password-container button {
+    width: 95%;
+    padding: 10px;
+    background: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.forgot-password-container button:hover {
+    background: #004080;
+}
+
+.forgot-password-container a {
+    display: block;
+    margin-top: 10px;
+    color: #0056b3;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password-container a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aigle Academy - Admission</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+
+        <!-- Navigation menu section -->
+        <div class="width-100 header-menu">
+            <div class="container">
+                <ul class="main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="policies.html">Policies</a></li>
+                    <li><a href="tenders.html">Tenders</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- School name and slogan section -->
+        <div class="school-name-slogan-logo">
+            <div class="school-name-slogan">
+                <h1>Aigle Academy</h1>
+                <p>Where Excellence Begins</p>
+            </div>
+
+            <!-- Left logo section -->
+            <div class="school-logo-2">
+                <img src="assets/images/school-logo.png">
+            </div>
+
+            <!-- Right logo section -->
+            <div class="school-logo-3">
+                <img src="assets/images/school-logo.png">
+            </div>
+        </div>
+    </header>
+
+    <main class="admission">
+
+        <!-- Admission form section -->
+        <section id="admission-form" class="form-section">
+            <h2>Admission Form</h2>
+            <p>Please fill out the form below to apply for admission to Aigle Academy.</p>
+            <form>
+                <label for="name">Child's Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter the child's full name" required>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                
+                <label for="parent-name">Parent/Guardian's Name:</label>
+                <input type="text" id="parent-name" name="parent-name" placeholder="Enter your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                
+                <label for="message">Additional Information:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+        <!-- Top footer section -->
+        <div class="width-100 margin-top-50 footer">
+            <div class="container">
+                <div class="width-25">
+                    <h2 class="quicklinks-heading">Quick Links</h2>
+                    <ul class="quicklinks-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="width-25">
+                    <h2 class="quicklinks-heading">Student Section</h2>
+                    <ul class="quicklinks-menu">
+                        <li><a href="#">Results</a></li>
+                        <li><a href="pay-fees.html">Pay Fees</a></li>
+                        <li><a href="scholarships.html">Scholarships</a></li>
+                        <li><a href="clubs-and-sporting-activities.html">Sports and Clubs</a></li>
+                    </ul>
+                </div>
+
+                <div class="width-25">
+                    <h2 class="quicklinks-heading">Information Links</h2>
+                    <ul class="quicklinks-menu">
+                        <li><a href="policies.html">Policies</a></li>
+                        <li><a href="tenders.html">Tenders</a></li>
+                        <li><a href="admission.html">Admission</a></li>
+                    </ul>
+                </div>
+
+                <div class="width-25">
+                    <h2 class="quicklinks-heading">Get In Touch</h2>
+                    <ul class="get-in-touch">
+                        <li><i class="fa-solid fa-envelope"></i> Email: <a href="#" class="footer-email">info@aigleacademy.com</a></li>
+                        <li><i class="fa-solid fa-square-phone"></i> Phone: +16045551234</li>
+                        <li><i class="fa-brands fa-whatsapp"></i> WhatsApp: +16045551235</li>
+                        <li><i class="fa-solid fa-globe"></i> Website: <a href="#" class="footer-website">https://www.aigleacademy.com</a></li>
+                    </ul>
+
+                    <ul class="social-media">
+                        <li class="facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="twitter"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="linkedin"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li class="instagram"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Scroll to top button section -->
+        <button id="scrollToTopBtn">
+            <i class="fa fa-arrow-up"></i>
+        </button>
+
+        <!-- Bottom footer section-->
+        <div class="width-100 footer2">
+            <p class="footer2-content">&copy; 2025 Aigle Technologies. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <script>
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+            scrollToTopBtn.classList.add("show");
+        } else {
+            scrollToTopBtn.classList.remove("show");
+        }
+        });
+    
+        scrollToTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+</html>
